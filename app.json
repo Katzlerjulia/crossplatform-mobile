@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "crossplatform-mobile",
-    "slug": "crossplatform-mobile",
+    "name": "post",
+    "slug": "post",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.juliakatz.post"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "14e854cc-08a3-4682-a636-9db2cd200cfc"
+      }
     }
   }
 }
